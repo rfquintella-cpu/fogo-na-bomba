@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fogo na Bomba ⚽ World Cup 2026</title>
+  <meta name="description" content="FIFA World Cup 2026 tracker for Fogo na Bomba — full schedule, live scores, polls & calendar downloads." />
+  <meta property="og:title" content="🔥 Fogo na Bomba — World Cup 2026" />
+  <meta property="og:description" content="Follow all 104 matches, vote on results & sync the calendar to your phone!" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════ HEADER ═══════════════ -->
+  <header class="site-header">
+    <div class="header-bg"></div>
+    <div class="header-content">
+      <div class="trophy-row">🏆</div>
+      <h1 class="site-title">FOGO NA BOMBA</h1>
+      <p class="site-sub">FIFA World Cup 2026 • June 11 – July 19</p>
+      <div class="flag-strip">🇧🇷🌎⚽🔥</div>
+      <div id="countdown" class="countdown"></div>
+      <div class="header-actions">
+        <button class="btn btn-cal" onclick="downloadFullCalendar()">📅 Download Full Calendar (.ics)</button>
+        <button class="btn btn-whatsapp" onclick="shareWhatsApp()">💬 Share on WhatsApp</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══════════════ NAV ═══════════════ -->
+  <nav class="tab-nav">
+    <button class="tab active" data-tab="schedule">📋 Schedule</button>
+    <button class="tab" data-tab="polls">🗳️ Polls</button>
+    <button class="tab" data-tab="groups">🏅 Groups</button>
+    <button class="tab" data-tab="howto">📲 How to Add Calendar</button>
+  </nav>
+
+  <!-- ═══════════════ SCHEDULE TAB ═══════════════ -->
+  <div id="tab-schedule" class="tab-content active">
+
+    <div class="filter-bar">
+      <div class="search-row">
+        <input type="search" id="team-search" placeholder="🔍 Search team, city…" oninput="renderSchedule()" autocomplete="off" />
+        <button class="btn-next-match" onclick="jumpToNextMatch()">⏭ Next Match</button>
+      </div>
+      <div class="filter-row">
+      <div class="tz-picker">
+        <label for="tz-select">⏰ Your Timezone:</label>
+        <select id="tz-select" onchange="renderSchedule()"></select>
+      </div>
+      <div class="phase-filter">
+        <button class="phase-btn active" data-phase="all">All</button>
+        <button class="phase-btn" data-phase="Group Stage">Groups</button>
+        <button class="phase-btn" data-phase="Round of 32">R32</button>
+        <button class="phase-btn" data-phase="Round of 16">R16</button>
+        <button class="phase-btn" data-phase="Quarterfinal">QF</button>
+        <button class="phase-btn" data-phase="Semifinal">SF</button>
+        <button class="phase-btn" data-phase="Final">Final</button>
+      </div>
+      </div>
+    </div>
+
+    <div id="schedule-container"></div>
+  </div>
+
+  <!-- ═══════════════ POLLS TAB ═══════════════ -->
+  <div id="tab-polls" class="tab-content">
+    <div class="polls-header">
+      <h2>🗳️ Match Predictions</h2>
+      <p>Vote on upcoming matches — who do you think will win?</p>
+    </div>
+    <div id="name-gate" class="name-gate">
+      <div class="name-card">
+        <div class="name-card-icon">⚽</div>
+        <h3>Enter Your Name to Vote</h3>
+        <p>Let everyone know who made the prediction!</p>
+        <input type="text" id="voter-name" placeholder="Your name…" maxlength="30" />
+        <button class="btn btn-primary" onclick="setVoterName()">Let's Go! 🔥</button>
+      </div>
+    </div>
+    <div id="polls-container" style="display:none"></div>
+  </div>
+
+  <!-- ═══════════════ GROUPS TAB ═══════════════ -->
+  <div id="tab-groups" class="tab-content">
+    <h2 class="section-title">Group Stage Draw</h2>
+    <div id="groups-grid"></div>
+  </div>
+
+  <!-- ═══════════════ HOW TO TAB ═══════════════ -->
+  <div id="tab-howto" class="tab-content">
+    <div class="howto-wrap">
+      <h2>📲 Add the Calendar to Your Phone</h2>
+      <p class="howto-intro">All match times automatically show in <strong>your local timezone</strong>. Follow the steps for your device:</p>
+
+      <div class="howto-cards">
+        <div class="howto-card apple">
+          <div class="howto-icon">🍎</div>
+          <h3>iPhone / iPad</h3>
+          <ol>
+            <li>Tap <strong>Download Full Calendar</strong> above</li>
+            <li>When Safari asks, tap <strong>"Open in Calendar"</strong></li>
+            <li>Tap <strong>Add All</strong> — done! ✅</li>
+          </ol>
+          <p class="howto-note">Times auto-convert to your local time.</p>
+        </div>
+        <div class="howto-card android">
+          <div class="howto-icon">🤖</div>
+          <h3>Android / Google Calendar</h3>
+          <ol>
+            <li>Download the <strong>.ics file</strong></li>
+            <li>Open <strong>Google Calendar</strong> → Settings → Import</li>
+            <li>Select the file → choose your calendar → <strong>Import</strong></li>
+          </ol>
+          <p class="howto-note">Or: open the file and your phone may offer to import it directly.</p>
+        </div>
+        <div class="howto-card outlook">
+          <div class="howto-icon">💼</div>
+          <h3>Outlook / Windows</h3>
+          <ol>
+            <li>Download the <strong>.ics file</strong></li>
+            <li>Double-click the file → Outlook opens it</li>
+            <li>Click <strong>Import</strong> → done!</li>
+          </ol>
+          <p class="howto-note">Works with Outlook.com and desktop Outlook.</p>
+        </div>
+      </div>
+
+      <div class="howto-tip">
+        <strong>💡 Pro tip:</strong> Each match card on the schedule also has its own <em>Add to Calendar</em> button — perfect if you only want specific games (like Brazil's matches! 🇧🇷).
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="site-footer">
+    <p>🔥 Fogo na Bomba • FIFA World Cup 2026</p>
+    <p>Times shown in your selected timezone. Scores update after each match.</p>
+    <p style="margin-top:8px;font-size:0.75rem;opacity:0.6">Data source: official FIFA / Yahoo Sports schedule</p>
+  </footer>
+
+  <script src="data/matches.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
