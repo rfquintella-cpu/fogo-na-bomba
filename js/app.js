@@ -540,8 +540,24 @@ function buildICS(matches) {
   return lines.join('\r\n');
 }
 
-function downloadICS(content, filename) {
+async function downloadICS(content, filename) {
   const blob = new Blob([content], { type: 'text/calendar;charset=utf-8' });
+
+  // iOS Safari: use Web Share API (shows "Add to Calendar" in the native share sheet)
+  if (navigator.share && navigator.canShare) {
+    const file = new File([blob], filename, { type: 'text/calendar;charset=utf-8' });
+    if (navigator.canShare({ files: [file] })) {
+      try {
+        await navigator.share({ files: [file], title: '⚽ World Cup 2026 Calendar' });
+        return;
+      } catch (err) {
+        if (err.name === 'AbortError') return; // user cancelled — do nothing
+        // other error: fall through to standard download
+      }
+    }
+  }
+
+  // Desktop: standard blob download
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
