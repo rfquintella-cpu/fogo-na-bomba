@@ -568,6 +568,12 @@ async function downloadICS(content, filename) {
 }
 
 function downloadFullCalendar() {
+  // On iOS Safari: open static .ics URL directly — Safari will offer "Add to Calendar"
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  if (isIOS) {
+    window.open('calendar.ics', '_blank');
+    return;
+  }
   const ics = buildICS(WC2026_MATCHES);
   downloadICS(ics, 'fogo-na-bomba-worldcup-2026.ics');
 }
