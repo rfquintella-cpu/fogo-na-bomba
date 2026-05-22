@@ -4,6 +4,14 @@
 ═══════════════════════════════════════════════ */
 
 // ─── STATE ────────────────────────────────────────────────────────────────────
+const DATA_VERSION = '2'; // bump when localStorage schema changes
+if (localStorage.getItem('fnb_version') !== DATA_VERSION) {
+  localStorage.removeItem('fnb_scores');
+  localStorage.removeItem('fnb_polls');
+  localStorage.removeItem('fnb_myvotes');
+  localStorage.setItem('fnb_version', DATA_VERSION);
+}
+
 let currentPhase = 'all';
 let voterName = localStorage.getItem('fnb_voter_name') || null;
 
@@ -329,8 +337,8 @@ function renderPolls() {
   relevant.forEach(m => {
     const finished = isFinished(m.date);
     const myVote = myVotes[m.id];
-    const pollData = polls[m.id] || { home:0, draw:0, away:0, voters:[] };
-    const total = pollData.home + pollData.draw + pollData.away;
+    const pollData = polls[m.id] || { voters: [] };
+    const total = (pollData.voters || []).length;
 
     const card = document.createElement('div');
     card.className = `poll-card ${myVote ? 'poll-voted' : ''}`;
@@ -343,45 +351,54 @@ function renderPolls() {
 
     let votingUI = '';
     if (finished) {
-      votingUI = `<p style="font-size:0.8rem;color:var(--text-light);margin-top:10px">Match has ended. ${myVote ? `You predicted: <strong>${voteLabel(myVote, m)}</strong>` : 'You did not vote.'}</p>`;
+      const predText = myVote ? `You predicted: <strong>${myVote.h}–${myVote.a}</strong>` : 'You did not vote.';
+      votingUI = `<p style="font-size:0.8rem;color:var(--text-light);margin-top:10px">Match has ended. ${predText}</p>`;
     } else if (myVote) {
-      votingUI = `<p style="font-size:0.8rem;color:var(--green-mid);margin-top:10px;font-weight:700">✅ You voted: ${voteLabel(myVote, m)}</p>`;
+      votingUI = `
+        <div class="score-voted">
+          ✅ Your prediction: <strong>${homeFlag} ${m.home} ${myVote.h} – ${myVote.a} ${m.away} ${awayFlag}</strong>
+          <button class="change-vote-btn" onclick="clearVote(${m.id})">Change</button>
+        </div>`;
     } else {
       votingUI = `
-        <div class="poll-options">
-          <button class="poll-btn${myVote==='home'?' voted-home':''}" onclick="castVote(${m.id},'home')">${homeFlag} ${m.home}</button>
-          <button class="poll-btn${myVote==='draw'?' voted-draw':''}" onclick="castVote(${m.id},'draw')">🤝 Draw</button>
-          <button class="poll-btn${myVote==='away'?' voted-away':''}" onclick="castVote(${m.id},'away')">${awayFlag} ${m.away}</button>
-        </div>
-      `;
+        <div class="score-input-row">
+          <span class="score-team">${homeFlag} ${m.home}</span>
+          <input type="number" id="score-h-${m.id}" class="score-input" min="0" max="20" value="0" />
+          <span class="score-dash">–</span>
+          <input type="number" id="score-a-${m.id}" class="score-input" min="0" max="20" value="0" />
+          <span class="score-team right">${m.away} ${awayFlag}</span>
+          <button class="poll-submit-btn" onclick="castScoreVote(${m.id})">Submit 🔥</button>
+        </div>`;
     }
 
     let resultsUI = '';
     if (total > 0) {
-      const hp = Math.round((pollData.home / total) * 100);
-      const dp = Math.round((pollData.draw / total) * 100);
-      const ap = 100 - hp - dp;
-      const voterList = pollData.voters?.slice(-5).map(v => v.name).join(', ') || '';
+      // Show top predictions grouped by score
+      const scoreMap = {};
+      (pollData.voters || []).forEach(v => {
+        const key = `${v.h}-${v.a}`;
+        if (!scoreMap[key]) scoreMap[key] = { h: v.h, a: v.a, count: 0, names: [] };
+        scoreMap[key].count++;
+        scoreMap[key].names.push(v.name);
+      });
+      const sorted = Object.values(scoreMap).sort((a,b) => b.count - a.count).slice(0, 5);
+      const rows = sorted.map(s => {
+        const pct = Math.round((s.count / total) * 100);
+        const outcome = s.h > s.a ? `${m.home.split(' ')[0]} win` : s.h < s.a ? `${m.away.split(' ')[0]} win` : 'Draw';
+        return `
+          <div class="poll-result-row">
+            <span class="result-label">${s.h}–${s.a} <span class="outcome-tag">${outcome}</span></span>
+            <div class="result-bar-wrap"><div class="result-bar bar-home" style="width:${pct}%"></div></div>
+            <span class="result-pct">${pct}% <span style="font-weight:400;font-size:0.7rem">(${s.count})</span></span>
+          </div>`;
+      }).join('');
+      const voterList = (pollData.voters || []).slice(-3).map(v => escHtml(v.name)).join(', ');
       resultsUI = `
         <div class="poll-results">
-          <div class="poll-result-row">
-            <span class="result-label">${homeFlag} ${m.home.split(' ')[0]}</span>
-            <div class="result-bar-wrap"><div class="result-bar bar-home" style="width:${hp}%"></div></div>
-            <span class="result-pct">${hp}%</span>
-          </div>
-          <div class="poll-result-row">
-            <span class="result-label">🤝 Draw</span>
-            <div class="result-bar-wrap"><div class="result-bar bar-draw" style="width:${dp}%"></div></div>
-            <span class="result-pct">${dp}%</span>
-          </div>
-          <div class="poll-result-row">
-            <span class="result-label">${awayFlag} ${m.away.split(' ')[0]}</span>
-            <div class="result-bar-wrap"><div class="result-bar bar-away" style="width:${ap}%"></div></div>
-            <span class="result-pct">${ap}%</span>
-          </div>
-          <div class="result-voters">${total} vote${total !== 1 ? 's' : ''} cast${voterList ? ` • Latest: ${escHtml(voterList)}` : ''}</div>
-        </div>
-      `;
+          <div class="results-title">Top predictions:</div>
+          ${rows}
+          <div class="result-voters">${total} prediction${total !== 1 ? 's' : ''}${voterList ? ` • Latest: ${voterList}` : ''}</div>
+        </div>`;
     }
 
     card.innerHTML = `
@@ -396,26 +413,34 @@ function renderPolls() {
   });
 }
 
-function voteLabel(vote, m) {
-  if (vote === 'home') return m.home + ' win';
-  if (vote === 'away') return m.away + ' win';
-  return 'Draw';
+function castScoreVote(matchId) {
+  if (!voterName) return;
+  const hVal = parseInt(document.getElementById(`score-h-${matchId}`)?.value ?? 0, 10);
+  const aVal = parseInt(document.getElementById(`score-a-${matchId}`)?.value ?? 0, 10);
+  if (isNaN(hVal) || isNaN(aVal)) return;
+
+  const polls   = getPolls();
+  const myVotes = getMyVotes();
+  if (myVotes[matchId]) return;
+
+  if (!polls[matchId]) polls[matchId] = { voters: [] };
+  polls[matchId].voters = polls[matchId].voters || [];
+  polls[matchId].voters.push({ name: voterName, h: hVal, a: aVal, ts: Date.now() });
+
+  myVotes[matchId] = { h: hVal, a: aVal };
+  savePolls(polls);
+  saveMyVotes(myVotes);
+  renderPolls();
 }
 
-function castVote(matchId, outcome) {
-  if (!voterName) return;
-  const polls = getPolls();
+function clearVote(matchId) {
   const myVotes = getMyVotes();
-
-  if (myVotes[matchId]) return; // already voted
-
-  if (!polls[matchId]) polls[matchId] = { home:0, draw:0, away:0, voters:[] };
-  polls[matchId][outcome]++;
-  polls[matchId].voters = polls[matchId].voters || [];
-  polls[matchId].voters.push({ name: voterName, vote: outcome, ts: Date.now() });
-
-  myVotes[matchId] = outcome;
-  savePolls(polls);
+  const polls   = getPolls();
+  if (polls[matchId]?.voters) {
+    polls[matchId].voters = polls[matchId].voters.filter(v => v.name !== voterName);
+    savePolls(polls);
+  }
+  delete myVotes[matchId];
   saveMyVotes(myVotes);
   renderPolls();
 }
