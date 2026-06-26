@@ -646,6 +646,27 @@ async function downloadICS(content, filename) {
   setTimeout(() => { document.body.removeChild(a); URL.revokeObjectURL(url); }, 1000);
 }
 
+function subscribeCalendar() {
+  // webcal:// tells the OS to SUBSCRIBE rather than one-time import — the calendar
+  // app then periodically re-fetches calendar.ics on its own, so future score and
+  // bracket updates appear automatically with no re-download needed.
+  const calUrl = window.location.origin + window.location.pathname.replace(/[^/]*$/, '') + 'calendar.ics';
+  const isApple = /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent) && !window.MSStream;
+
+  if (isApple) {
+    window.location.href = calUrl.replace(/^https?:/, 'webcal:');
+    return;
+  }
+
+  navigator.clipboard?.writeText(calUrl).catch(() => {});
+  alert(
+    '🔁 To subscribe (calendar auto-updates with new scores):\n\n' +
+    'Google Calendar: Settings → Add calendar → From URL → paste:\n' + calUrl + '\n\n' +
+    'Outlook: Add calendar → Subscribe from web → paste the same URL.\n\n' +
+    '(Link copied to your clipboard — just paste it in.)'
+  );
+}
+
 function downloadFullCalendar() {
   // On iOS Safari: open static .ics URL directly — Safari will offer "Add to Calendar"
   const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;

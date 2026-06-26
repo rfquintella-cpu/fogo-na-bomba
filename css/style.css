@@ -120,6 +120,13 @@ body {
   justify-content: center;
 }
 
+.header-subnote {
+  margin-top: 12px;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.55);
+}
+.header-subnote a { color: var(--gold); text-decoration: underline; cursor: pointer; }
+
 /* ─── BUTTONS ─────────────────────────────────── */
 .btn {
   display: inline-flex;
