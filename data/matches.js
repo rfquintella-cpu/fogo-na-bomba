@@ -94,7 +94,7 @@ const WC2026_MATCHES = [
 
   // ─── ROUND OF 32 ────────────────────────────────────────────────────────────
   { id:73, phase:"Round of 32", group:"", home:"Runner-up A",      away:"Runner-up B",         date:"2026-06-28T19:00:00Z", venue:"SoFi Stadium",          city:"Los Angeles, CA" },
-  { id:74, phase:"Round of 32", group:"", home:"Winner C",         away:"Runner-up F",          date:"2026-06-29T17:00:00Z", venue:"NRG Stadium",           city:"Houston, TX" },
+  { id:74, phase:"Round of 32", group:"", home:"Brazil",            away:"Japan",                date:"2026-06-29T17:00:00Z", venue:"NRG Stadium",           city:"Houston, TX" },
   { id:75, phase:"Round of 32", group:"", home:"Winner E",         away:"Best 3rd A/B/C/D/F",   date:"2026-06-29T20:30:00Z", venue:"Gillette Stadium",      city:"Foxborough, MA" },
   { id:76, phase:"Round of 32", group:"", home:"Winner F",         away:"Runner-up C",          date:"2026-06-30T01:00:00Z", venue:"Estadio BBVA",          city:"Monterrey, MX" },
   { id:77, phase:"Round of 32", group:"", home:"Runner-up E",      away:"Runner-up I",          date:"2026-06-30T17:00:00Z", venue:"AT&T Stadium",          city:"Arlington, TX" },
