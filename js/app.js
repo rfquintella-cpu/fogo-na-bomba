@@ -101,10 +101,58 @@ function isLive(isoDate) {
   return diffMs >= 0 && diffMs < 115 * 60 * 1000; // ~115 min window
 }
 
-function isFinished(isoDate) {
+function isFinished(isoDate, m) {
+  if (m && m.hs != null && m.as != null) return true;
   const start = new Date(isoDate);
   const now = new Date();
   return now - start > 115 * 60 * 1000;
+}
+
+// ─── BRACKET RESOLUTION (group standings → real team names) ───────────────────
+// Official result of record lives in data/matches.js as hs (home score) / as (away score).
+// Once every match in a group has a result, placeholder labels like "Winner C" or
+// "Runner-up F" in later rounds resolve to the actual qualified team.
+function computeGroupStandings(group) {
+  const groupMatches = WC2026_MATCHES.filter(m => m.group === group && m.phase === 'Group Stage');
+  const table = {};
+  groupMatches.forEach(m => {
+    [m.home, m.away].forEach(t => {
+      if (!table[t]) table[t] = { team: t, played: 0, pts: 0, gf: 0, ga: 0, gd: 0 };
+    });
+  });
+  let complete = groupMatches.length > 0;
+  groupMatches.forEach(m => {
+    if (m.hs == null || m.as == null) { complete = false; return; }
+    const h = table[m.home], a = table[m.away];
+    h.played++; a.played++;
+    h.gf += m.hs; h.ga += m.as;
+    a.gf += m.as; a.ga += m.hs;
+    if (m.hs > m.as) h.pts += 3;
+    else if (m.hs < m.as) a.pts += 3;
+    else { h.pts += 1; a.pts += 1; }
+  });
+  const standings = Object.values(table)
+    .map(t => ({ ...t, gd: t.gf - t.ga }))
+    .sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
+  return { standings, complete };
+}
+
+function resolveTeamLabel(label) {
+  let m = /^Winner ([A-L])$/.exec(label);
+  if (m) {
+    const { standings, complete } = computeGroupStandings(m[1]);
+    return complete ? standings[0].team : label;
+  }
+  m = /^Runner-up ([A-L])$/.exec(label);
+  if (m) {
+    const { standings, complete } = computeGroupStandings(m[1]);
+    return complete ? standings[1].team : label;
+  }
+  return label; // "Best 3rd …", "R32 Winner N" etc. resolve once the full bracket is wired up
+}
+
+function matchScore(m) {
+  return (m.hs != null && m.as != null) ? { home: m.hs, away: m.as } : null;
 }
 
 // ─── COUNTDOWN ────────────────────────────────────────────────────────────────
@@ -221,9 +269,11 @@ function phaseClass(phase) {
 
 function buildMatchCard(m, tz, scores) {
   const card = document.createElement('div');
-  const live = isLive(m.date);
-  const finished = isFinished(m.date);
-  const score = scores[m.id];
+  const homeLabel = resolveTeamLabel(m.home);
+  const awayLabel = resolveTeamLabel(m.away);
+  const finished = isFinished(m.date, m);
+  const live = !finished && isLive(m.date);
+  const score = matchScore(m) || scores[m.id];
 
   card.className = `match-card ${phaseClass(m.phase)} ${live ? 'is-live' : ''} ${finished ? 'is-finished' : ''}`;
   card.dataset.id = m.id;
@@ -231,8 +281,8 @@ function buildMatchCard(m, tz, scores) {
   const timeStr = formatMatchTime(m.date, tz);
   const [timePart, ampm] = timeStr.split(' ');
 
-  const homeFlag = FLAGS[m.home] || '🏳️';
-  const awayFlag = FLAGS[m.away] || '🏳️';
+  const homeFlag = FLAGS[homeLabel] || '🏳️';
+  const awayFlag = FLAGS[awayLabel] || '🏳️';
 
   let timeBlock = '';
   if (live) {
@@ -259,9 +309,9 @@ function buildMatchCard(m, tz, scores) {
     <div class="match-teams">
       <div class="teams-row">
         <span class="team-flag">${homeFlag}</span>
-        <span class="team-name">${m.home}</span>
+        <span class="team-name">${homeLabel}</span>
         ${scoreDisplay}
-        <span class="team-name" style="text-align:right">${m.away}</span>
+        <span class="team-name" style="text-align:right">${awayLabel}</span>
         <span class="team-flag">${awayFlag}</span>
       </div>
       <div class="match-meta">
@@ -335,7 +385,7 @@ function renderPolls() {
   }
 
   relevant.forEach(m => {
-    const finished = isFinished(m.date);
+    const finished = isFinished(m.date, m);
     const myVote = myVotes[m.id];
     const pollData = polls[m.id] || { voters: [] };
     const total = (pollData.voters || []).length;
@@ -344,8 +394,10 @@ function renderPolls() {
     card.className = `poll-card ${myVote ? 'poll-voted' : ''}`;
     card.id = `poll-card-${m.id}`;
 
-    const homeFlag = FLAGS[m.home] || '🏳️';
-    const awayFlag = FLAGS[m.away] || '🏳️';
+    const homeLabel = resolveTeamLabel(m.home);
+    const awayLabel = resolveTeamLabel(m.away);
+    const homeFlag = FLAGS[homeLabel] || '🏳️';
+    const awayFlag = FLAGS[awayLabel] || '🏳️';
     const dateStr = formatMatchDay(m.date, tz);
     const timeStr = formatMatchTime(m.date, tz);
 
@@ -356,17 +408,17 @@ function renderPolls() {
     } else if (myVote) {
       votingUI = `
         <div class="score-voted">
-          ✅ Your prediction: <strong>${homeFlag} ${m.home} ${myVote.h} – ${myVote.a} ${m.away} ${awayFlag}</strong>
+          ✅ Your prediction: <strong>${homeFlag} ${homeLabel} ${myVote.h} – ${myVote.a} ${awayLabel} ${awayFlag}</strong>
           <button class="change-vote-btn" onclick="clearVote(${m.id})">Change</button>
         </div>`;
     } else {
       votingUI = `
         <div class="score-input-row">
-          <span class="score-team">${homeFlag} ${m.home}</span>
+          <span class="score-team">${homeFlag} ${homeLabel}</span>
           <input type="number" id="score-h-${m.id}" class="score-input" min="0" max="20" value="0" />
           <span class="score-dash">–</span>
           <input type="number" id="score-a-${m.id}" class="score-input" min="0" max="20" value="0" />
-          <span class="score-team right">${m.away} ${awayFlag}</span>
+          <span class="score-team right">${awayLabel} ${awayFlag}</span>
           <button class="poll-submit-btn" onclick="castScoreVote(${m.id})">Submit 🔥</button>
         </div>`;
     }
@@ -384,7 +436,7 @@ function renderPolls() {
       const sorted = Object.values(scoreMap).sort((a,b) => b.count - a.count).slice(0, 5);
       const rows = sorted.map(s => {
         const pct = Math.round((s.count / total) * 100);
-        const outcome = s.h > s.a ? `${m.home.split(' ')[0]} win` : s.h < s.a ? `${m.away.split(' ')[0]} win` : 'Draw';
+        const outcome = s.h > s.a ? `${homeLabel.split(' ')[0]} win` : s.h < s.a ? `${awayLabel.split(' ')[0]} win` : 'Draw';
         return `
           <div class="poll-result-row">
             <span class="result-label">${s.h}–${s.a} <span class="outcome-tag">${outcome}</span></span>
@@ -403,7 +455,7 @@ function renderPolls() {
 
     card.innerHTML = `
       <div class="poll-match-title">
-        ${homeFlag} ${m.home} vs ${awayFlag} ${m.away}
+        ${homeFlag} ${homeLabel} vs ${awayFlag} ${awayLabel}
         <span class="poll-date">${dateStr} · ${timeStr}</span>
       </div>
       ${votingUI}
@@ -522,14 +574,16 @@ function matchToICSEvent(m) {
   const startStr = start.toISOString().replace(/[-:]/g,'').split('.')[0] + 'Z';
   const endStr   = end.toISOString().replace(/[-:]/g,'').split('.')[0] + 'Z';
   const uid = `fnb-wc2026-match-${m.id}@fogonabomba`;
-  const score = getScores()[m.id];
+  const homeLabel = resolveTeamLabel(m.home);
+  const awayLabel = resolveTeamLabel(m.away);
+  const score = matchScore(m) || getScores()[m.id];
   const scoreStr = score ? ` [${score.home}–${score.away}]` : '';
-  const summary = `⚽ ${m.home} vs ${m.away}${scoreStr} — WC2026`;
+  const summary = `⚽ ${homeLabel} vs ${awayLabel}${scoreStr} — WC2026`;
   const description = [
     `FIFA World Cup 2026`,
     `${m.phase}${m.group ? ' – Group '+m.group : ''}`,
-    `${m.home} vs ${m.away}`,
-    score ? `Final Score: ${m.home} ${score.home} – ${score.away} ${m.away}` : 'Score TBD',
+    `${homeLabel} vs ${awayLabel}`,
+    score ? `Final Score: ${homeLabel} ${score.home} – ${score.away} ${awayLabel}` : 'Score TBD',
     `📍 ${m.venue}, ${m.city}`,
     ``,
     `🔥 Fogo na Bomba World Cup Tracker`,

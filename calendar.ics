@@ -8,1041 +8,1041 @@ X-WR-CALDESC:All 104 FIFA World Cup 2026 matches
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 UID:fnb-wc2026-1@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260611T190000Z
 DTEND:20260611T205500Z
 SUMMARY:Soccer: Mexico vs South Africa - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group A\nMexico vs South Africa\nVenue: Estadio Azteca\, Mexico City, MX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group A\nMexico vs South Africa\nScore TBD\nVenue: Estadio Azteca\, Mexico City, MX\nFogo na Bomba
 LOCATION:Estadio Azteca\, Mexico City, MX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-2@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260612T020000Z
 DTEND:20260612T035500Z
 SUMMARY:Soccer: South Korea vs Czechia - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group A\nSouth Korea vs Czechia\nVenue: Estadio Akron\, Zapopan, MX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group A\nSouth Korea vs Czechia\nScore TBD\nVenue: Estadio Akron\, Zapopan, MX\nFogo na Bomba
 LOCATION:Estadio Akron\, Zapopan, MX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-3@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260612T190000Z
 DTEND:20260612T205500Z
 SUMMARY:Soccer: Canada vs Bosnia & Herzegovina - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group B\nCanada vs Bosnia & Herzegovina\nVenue: BMO Field\, Toronto, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group B\nCanada vs Bosnia & Herzegovina\nScore TBD\nVenue: BMO Field\, Toronto, CA\nFogo na Bomba
 LOCATION:BMO Field\, Toronto, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-4@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260613T010000Z
 DTEND:20260613T025500Z
 SUMMARY:Soccer: USA vs Paraguay - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group D\nUSA vs Paraguay\nVenue: SoFi Stadium\, Los Angeles, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group D\nUSA vs Paraguay\nScore TBD\nVenue: SoFi Stadium\, Los Angeles, CA\nFogo na Bomba
 LOCATION:SoFi Stadium\, Los Angeles, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-5@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260613T190000Z
 DTEND:20260613T205500Z
 SUMMARY:Soccer: Qatar vs Switzerland - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group B\nQatar vs Switzerland\nVenue: Levi's Stadium\, Santa Clara, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group B\nQatar vs Switzerland\nScore TBD\nVenue: Levi's Stadium\, Santa Clara, CA\nFogo na Bomba
 LOCATION:Levi's Stadium\, Santa Clara, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-6@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260613T220000Z
 DTEND:20260613T235500Z
 SUMMARY:Soccer: Brazil vs Morocco - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group C\nBrazil vs Morocco\nVenue: MetLife Stadium\, East Rutherford, NJ\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group C\nBrazil vs Morocco\nScore TBD\nVenue: MetLife Stadium\, East Rutherford, NJ\nFogo na Bomba
 LOCATION:MetLife Stadium\, East Rutherford, NJ
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-7@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260614T010000Z
 DTEND:20260614T025500Z
 SUMMARY:Soccer: Haiti vs Scotland - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group C\nHaiti vs Scotland\nVenue: Gillette Stadium\, Foxborough, MA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group C\nHaiti vs Scotland\nScore TBD\nVenue: Gillette Stadium\, Foxborough, MA\nFogo na Bomba
 LOCATION:Gillette Stadium\, Foxborough, MA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-8@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260614T160000Z
 DTEND:20260614T175500Z
 SUMMARY:Soccer: Australia vs TÃ¼rkiye - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group D\nAustralia vs TÃ¼rkiye\nVenue: BC Place\, Vancouver, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group D\nAustralia vs TÃ¼rkiye\nScore TBD\nVenue: BC Place\, Vancouver, CA\nFogo na Bomba
 LOCATION:BC Place\, Vancouver, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-9@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260614T170000Z
 DTEND:20260614T185500Z
 SUMMARY:Soccer: Germany vs CuraÃ§ao - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group E\nGermany vs CuraÃ§ao\nVenue: NRG Stadium\, Houston, TX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group E\nGermany vs CuraÃ§ao\nScore TBD\nVenue: NRG Stadium\, Houston, TX\nFogo na Bomba
 LOCATION:NRG Stadium\, Houston, TX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-10@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260614T200000Z
 DTEND:20260614T215500Z
 SUMMARY:Soccer: Netherlands vs Japan - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group F\nNetherlands vs Japan\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group F\nNetherlands vs Japan\nScore TBD\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
 LOCATION:AT&T Stadium\, Arlington, TX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-11@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260614T230000Z
 DTEND:20260615T005500Z
 SUMMARY:Soccer: Ivory Coast vs Ecuador - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group E\nIvory Coast vs Ecuador\nVenue: Lincoln Financial Field\, Philadelphia, PA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group E\nIvory Coast vs Ecuador\nScore TBD\nVenue: Lincoln Financial Field\, Philadelphia, PA\nFogo na Bomba
 LOCATION:Lincoln Financial Field\, Philadelphia, PA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-12@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260615T020000Z
 DTEND:20260615T035500Z
 SUMMARY:Soccer: Sweden vs Tunisia - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group F\nSweden vs Tunisia\nVenue: Estadio BBVA\, Monterrey, MX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group F\nSweden vs Tunisia\nScore TBD\nVenue: Estadio BBVA\, Monterrey, MX\nFogo na Bomba
 LOCATION:Estadio BBVA\, Monterrey, MX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-13@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260615T160000Z
 DTEND:20260615T175500Z
 SUMMARY:Soccer: Spain vs Cape Verde - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group H\nSpain vs Cape Verde\nVenue: Mercedes-Benz Stadium\, Atlanta, GA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group H\nSpain vs Cape Verde\nScore TBD\nVenue: Mercedes-Benz Stadium\, Atlanta, GA\nFogo na Bomba
 LOCATION:Mercedes-Benz Stadium\, Atlanta, GA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-14@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260615T190000Z
 DTEND:20260615T205500Z
 SUMMARY:Soccer: Belgium vs Egypt - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group G\nBelgium vs Egypt\nVenue: Lumen Field\, Seattle, WA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group G\nBelgium vs Egypt\nScore TBD\nVenue: Lumen Field\, Seattle, WA\nFogo na Bomba
 LOCATION:Lumen Field\, Seattle, WA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-15@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260615T220000Z
 DTEND:20260615T235500Z
 SUMMARY:Soccer: Saudi Arabia vs Uruguay - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group H\nSaudi Arabia vs Uruguay\nVenue: Hard Rock Stadium\, Miami Gardens, FL\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group H\nSaudi Arabia vs Uruguay\nScore TBD\nVenue: Hard Rock Stadium\, Miami Gardens, FL\nFogo na Bomba
 LOCATION:Hard Rock Stadium\, Miami Gardens, FL
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-16@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260616T010000Z
 DTEND:20260616T025500Z
 SUMMARY:Soccer: Iran vs New Zealand - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group G\nIran vs New Zealand\nVenue: SoFi Stadium\, Los Angeles, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group G\nIran vs New Zealand\nScore TBD\nVenue: SoFi Stadium\, Los Angeles, CA\nFogo na Bomba
 LOCATION:SoFi Stadium\, Los Angeles, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-17@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260616T190000Z
 DTEND:20260616T205500Z
 SUMMARY:Soccer: France vs Senegal - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group I\nFrance vs Senegal\nVenue: MetLife Stadium\, East Rutherford, NJ\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group I\nFrance vs Senegal\nScore TBD\nVenue: MetLife Stadium\, East Rutherford, NJ\nFogo na Bomba
 LOCATION:MetLife Stadium\, East Rutherford, NJ
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-18@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260616T220000Z
 DTEND:20260616T235500Z
 SUMMARY:Soccer: Iraq vs Norway - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group I\nIraq vs Norway\nVenue: Gillette Stadium\, Foxborough, MA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group I\nIraq vs Norway\nScore TBD\nVenue: Gillette Stadium\, Foxborough, MA\nFogo na Bomba
 LOCATION:Gillette Stadium\, Foxborough, MA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-19@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260617T010000Z
 DTEND:20260617T025500Z
 SUMMARY:Soccer: Argentina vs Algeria - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group J\nArgentina vs Algeria\nVenue: Arrowhead Stadium\, Kansas City, MO\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group J\nArgentina vs Algeria\nScore TBD\nVenue: Arrowhead Stadium\, Kansas City, MO\nFogo na Bomba
 LOCATION:Arrowhead Stadium\, Kansas City, MO
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-20@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260617T040000Z
 DTEND:20260617T055500Z
 SUMMARY:Soccer: Austria vs Jordan - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group J\nAustria vs Jordan\nVenue: Levi's Stadium\, Santa Clara, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group J\nAustria vs Jordan\nScore TBD\nVenue: Levi's Stadium\, Santa Clara, CA\nFogo na Bomba
 LOCATION:Levi's Stadium\, Santa Clara, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-21@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260617T170000Z
 DTEND:20260617T185500Z
 SUMMARY:Soccer: Portugal vs DR Congo - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group K\nPortugal vs DR Congo\nVenue: NRG Stadium\, Houston, TX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group K\nPortugal vs DR Congo\nScore TBD\nVenue: NRG Stadium\, Houston, TX\nFogo na Bomba
 LOCATION:NRG Stadium\, Houston, TX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-22@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260617T200000Z
 DTEND:20260617T215500Z
 SUMMARY:Soccer: England vs Croatia - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group L\nEngland vs Croatia\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group L\nEngland vs Croatia\nScore TBD\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
 LOCATION:AT&T Stadium\, Arlington, TX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-23@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260617T230000Z
 DTEND:20260618T005500Z
 SUMMARY:Soccer: Ghana vs Panama - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group L\nGhana vs Panama\nVenue: BMO Field\, Toronto, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group L\nGhana vs Panama\nScore TBD\nVenue: BMO Field\, Toronto, CA\nFogo na Bomba
 LOCATION:BMO Field\, Toronto, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-24@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260618T020000Z
 DTEND:20260618T035500Z
 SUMMARY:Soccer: Uzbekistan vs Colombia - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group K\nUzbekistan vs Colombia\nVenue: Estadio Azteca\, Mexico City, MX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group K\nUzbekistan vs Colombia\nScore TBD\nVenue: Estadio Azteca\, Mexico City, MX\nFogo na Bomba
 LOCATION:Estadio Azteca\, Mexico City, MX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-25@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260618T160000Z
 DTEND:20260618T175500Z
 SUMMARY:Soccer: Czechia vs South Africa - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group A\nCzechia vs South Africa\nVenue: Mercedes-Benz Stadium\, Atlanta, GA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group A\nCzechia vs South Africa\nScore TBD\nVenue: Mercedes-Benz Stadium\, Atlanta, GA\nFogo na Bomba
 LOCATION:Mercedes-Benz Stadium\, Atlanta, GA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-26@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260618T190000Z
 DTEND:20260618T205500Z
 SUMMARY:Soccer: Switzerland vs Bosnia & Herzegovina - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group B\nSwitzerland vs Bosnia & Herzegovina\nVenue: SoFi Stadium\, Los Angeles, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group B\nSwitzerland vs Bosnia & Herzegovina\nScore TBD\nVenue: SoFi Stadium\, Los Angeles, CA\nFogo na Bomba
 LOCATION:SoFi Stadium\, Los Angeles, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-27@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260618T220000Z
 DTEND:20260618T235500Z
 SUMMARY:Soccer: Canada vs Qatar - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group B\nCanada vs Qatar\nVenue: BC Place\, Vancouver, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group B\nCanada vs Qatar\nScore TBD\nVenue: BC Place\, Vancouver, CA\nFogo na Bomba
 LOCATION:BC Place\, Vancouver, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-28@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260619T010000Z
 DTEND:20260619T025500Z
 SUMMARY:Soccer: Mexico vs South Korea - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group A\nMexico vs South Korea\nVenue: Estadio Akron\, Zapopan, MX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group A\nMexico vs South Korea\nScore TBD\nVenue: Estadio Akron\, Zapopan, MX\nFogo na Bomba
 LOCATION:Estadio Akron\, Zapopan, MX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-29@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260619T190000Z
 DTEND:20260619T205500Z
 SUMMARY:Soccer: USA vs Australia - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group D\nUSA vs Australia\nVenue: Lumen Field\, Seattle, WA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group D\nUSA vs Australia\nScore TBD\nVenue: Lumen Field\, Seattle, WA\nFogo na Bomba
 LOCATION:Lumen Field\, Seattle, WA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-30@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260619T220000Z
 DTEND:20260619T235500Z
 SUMMARY:Soccer: Scotland vs Morocco - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group C\nScotland vs Morocco\nVenue: Gillette Stadium\, Foxborough, MA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group C\nScotland vs Morocco\nScore TBD\nVenue: Gillette Stadium\, Foxborough, MA\nFogo na Bomba
 LOCATION:Gillette Stadium\, Foxborough, MA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-31@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260620T003000Z
 DTEND:20260620T022500Z
 SUMMARY:Soccer: Brazil vs Haiti - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group C\nBrazil vs Haiti\nVenue: Lincoln Financial Field\, Philadelphia, PA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group C\nBrazil vs Haiti\nScore TBD\nVenue: Lincoln Financial Field\, Philadelphia, PA\nFogo na Bomba
 LOCATION:Lincoln Financial Field\, Philadelphia, PA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-32@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260620T030000Z
 DTEND:20260620T045500Z
 SUMMARY:Soccer: TÃ¼rkiye vs Paraguay - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group D\nTÃ¼rkiye vs Paraguay\nVenue: Levi's Stadium\, Santa Clara, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group D\nTÃ¼rkiye vs Paraguay\nScore TBD\nVenue: Levi's Stadium\, Santa Clara, CA\nFogo na Bomba
 LOCATION:Levi's Stadium\, Santa Clara, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-33@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260620T170000Z
 DTEND:20260620T185500Z
 SUMMARY:Soccer: Netherlands vs Sweden - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group F\nNetherlands vs Sweden\nVenue: NRG Stadium\, Houston, TX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group F\nNetherlands vs Sweden\nScore TBD\nVenue: NRG Stadium\, Houston, TX\nFogo na Bomba
 LOCATION:NRG Stadium\, Houston, TX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-34@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260620T200000Z
 DTEND:20260620T215500Z
 SUMMARY:Soccer: Germany vs Ivory Coast - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group E\nGermany vs Ivory Coast\nVenue: BMO Field\, Toronto, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group E\nGermany vs Ivory Coast\nScore TBD\nVenue: BMO Field\, Toronto, CA\nFogo na Bomba
 LOCATION:BMO Field\, Toronto, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-35@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260621T000000Z
 DTEND:20260621T015500Z
 SUMMARY:Soccer: Ecuador vs CuraÃ§ao - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group E\nEcuador vs CuraÃ§ao\nVenue: Arrowhead Stadium\, Kansas City, MO\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group E\nEcuador vs CuraÃ§ao\nScore TBD\nVenue: Arrowhead Stadium\, Kansas City, MO\nFogo na Bomba
 LOCATION:Arrowhead Stadium\, Kansas City, MO
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-36@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260621T040000Z
 DTEND:20260621T055500Z
 SUMMARY:Soccer: Tunisia vs Japan - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group F\nTunisia vs Japan\nVenue: Estadio BBVA\, Monterrey, MX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group F\nTunisia vs Japan\nScore TBD\nVenue: Estadio BBVA\, Monterrey, MX\nFogo na Bomba
 LOCATION:Estadio BBVA\, Monterrey, MX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-37@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260621T160000Z
 DTEND:20260621T175500Z
 SUMMARY:Soccer: Spain vs Saudi Arabia - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group H\nSpain vs Saudi Arabia\nVenue: Mercedes-Benz Stadium\, Atlanta, GA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group H\nSpain vs Saudi Arabia\nScore TBD\nVenue: Mercedes-Benz Stadium\, Atlanta, GA\nFogo na Bomba
 LOCATION:Mercedes-Benz Stadium\, Atlanta, GA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-38@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260621T190000Z
 DTEND:20260621T205500Z
 SUMMARY:Soccer: Belgium vs Iran - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group G\nBelgium vs Iran\nVenue: SoFi Stadium\, Los Angeles, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group G\nBelgium vs Iran\nScore TBD\nVenue: SoFi Stadium\, Los Angeles, CA\nFogo na Bomba
 LOCATION:SoFi Stadium\, Los Angeles, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-39@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260621T220000Z
 DTEND:20260621T235500Z
 SUMMARY:Soccer: Uruguay vs Cape Verde - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group H\nUruguay vs Cape Verde\nVenue: Hard Rock Stadium\, Miami Gardens, FL\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group H\nUruguay vs Cape Verde\nScore TBD\nVenue: Hard Rock Stadium\, Miami Gardens, FL\nFogo na Bomba
 LOCATION:Hard Rock Stadium\, Miami Gardens, FL
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-40@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260622T010000Z
 DTEND:20260622T025500Z
 SUMMARY:Soccer: New Zealand vs Egypt - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group G\nNew Zealand vs Egypt\nVenue: BC Place\, Vancouver, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group G\nNew Zealand vs Egypt\nScore TBD\nVenue: BC Place\, Vancouver, CA\nFogo na Bomba
 LOCATION:BC Place\, Vancouver, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-41@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260622T170000Z
 DTEND:20260622T185500Z
 SUMMARY:Soccer: Argentina vs Austria - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group J\nArgentina vs Austria\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group J\nArgentina vs Austria\nScore TBD\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
 LOCATION:AT&T Stadium\, Arlington, TX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-42@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260622T210000Z
 DTEND:20260622T225500Z
 SUMMARY:Soccer: France vs Iraq - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group I\nFrance vs Iraq\nVenue: Lincoln Financial Field\, Philadelphia, PA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group I\nFrance vs Iraq\nScore TBD\nVenue: Lincoln Financial Field\, Philadelphia, PA\nFogo na Bomba
 LOCATION:Lincoln Financial Field\, Philadelphia, PA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-43@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260623T000000Z
 DTEND:20260623T015500Z
 SUMMARY:Soccer: Norway vs Senegal - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group I\nNorway vs Senegal\nVenue: MetLife Stadium\, East Rutherford, NJ\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group I\nNorway vs Senegal\nScore TBD\nVenue: MetLife Stadium\, East Rutherford, NJ\nFogo na Bomba
 LOCATION:MetLife Stadium\, East Rutherford, NJ
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-44@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260623T030000Z
 DTEND:20260623T045500Z
 SUMMARY:Soccer: Jordan vs Algeria - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group J\nJordan vs Algeria\nVenue: Levi's Stadium\, Santa Clara, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group J\nJordan vs Algeria\nScore TBD\nVenue: Levi's Stadium\, Santa Clara, CA\nFogo na Bomba
 LOCATION:Levi's Stadium\, Santa Clara, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-45@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260623T170000Z
 DTEND:20260623T185500Z
 SUMMARY:Soccer: Portugal vs Uzbekistan - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group K\nPortugal vs Uzbekistan\nVenue: NRG Stadium\, Houston, TX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group K\nPortugal vs Uzbekistan\nScore TBD\nVenue: NRG Stadium\, Houston, TX\nFogo na Bomba
 LOCATION:NRG Stadium\, Houston, TX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-46@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260623T200000Z
 DTEND:20260623T215500Z
 SUMMARY:Soccer: England vs Ghana - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group L\nEngland vs Ghana\nVenue: Gillette Stadium\, Foxborough, MA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group L\nEngland vs Ghana\nScore TBD\nVenue: Gillette Stadium\, Foxborough, MA\nFogo na Bomba
 LOCATION:Gillette Stadium\, Foxborough, MA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-47@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260623T230000Z
 DTEND:20260624T005500Z
 SUMMARY:Soccer: Panama vs Croatia - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group L\nPanama vs Croatia\nVenue: BMO Field\, Toronto, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group L\nPanama vs Croatia\nScore TBD\nVenue: BMO Field\, Toronto, CA\nFogo na Bomba
 LOCATION:BMO Field\, Toronto, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-48@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260624T020000Z
 DTEND:20260624T035500Z
 SUMMARY:Soccer: Colombia vs DR Congo - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group K\nColombia vs DR Congo\nVenue: Estadio Akron\, Zapopan, MX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group K\nColombia vs DR Congo\nScore TBD\nVenue: Estadio Akron\, Zapopan, MX\nFogo na Bomba
 LOCATION:Estadio Akron\, Zapopan, MX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-49@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260624T190000Z
 DTEND:20260624T205500Z
 SUMMARY:Soccer: Switzerland vs Canada - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group B\nSwitzerland vs Canada\nVenue: BC Place\, Vancouver, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group B\nSwitzerland vs Canada\nScore TBD\nVenue: BC Place\, Vancouver, CA\nFogo na Bomba
 LOCATION:BC Place\, Vancouver, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-50@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260624T190000Z
 DTEND:20260624T205500Z
 SUMMARY:Soccer: Bosnia & Herzegovina vs Qatar - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group B\nBosnia & Herzegovina vs Qatar\nVenue: Lumen Field\, Seattle, WA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group B\nBosnia & Herzegovina vs Qatar\nScore TBD\nVenue: Lumen Field\, Seattle, WA\nFogo na Bomba
 LOCATION:Lumen Field\, Seattle, WA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-51@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260624T220000Z
 DTEND:20260624T235500Z
-SUMMARY:Soccer: Scotland vs Brazil - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group C\nScotland vs Brazil\nVenue: Hard Rock Stadium\, Miami Gardens, FL\nFogo na Bomba
+SUMMARY:Soccer: Scotland vs Brazil [0-3] - WC2026
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group C\nScotland vs Brazil\nFinal Score: Scotland 0 - 3 Brazil\nVenue: Hard Rock Stadium\, Miami Gardens, FL\nFogo na Bomba
 LOCATION:Hard Rock Stadium\, Miami Gardens, FL
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-52@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260624T220000Z
 DTEND:20260624T235500Z
 SUMMARY:Soccer: Morocco vs Haiti - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group C\nMorocco vs Haiti\nVenue: Mercedes-Benz Stadium\, Atlanta, GA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group C\nMorocco vs Haiti\nScore TBD\nVenue: Mercedes-Benz Stadium\, Atlanta, GA\nFogo na Bomba
 LOCATION:Mercedes-Benz Stadium\, Atlanta, GA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-53@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260625T010000Z
 DTEND:20260625T025500Z
 SUMMARY:Soccer: Czechia vs Mexico - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group A\nCzechia vs Mexico\nVenue: Estadio Azteca\, Mexico City, MX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group A\nCzechia vs Mexico\nScore TBD\nVenue: Estadio Azteca\, Mexico City, MX\nFogo na Bomba
 LOCATION:Estadio Azteca\, Mexico City, MX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-54@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260625T010000Z
 DTEND:20260625T025500Z
 SUMMARY:Soccer: South Africa vs South Korea - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group A\nSouth Africa vs South Korea\nVenue: Estadio BBVA\, Monterrey, MX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group A\nSouth Africa vs South Korea\nScore TBD\nVenue: Estadio BBVA\, Monterrey, MX\nFogo na Bomba
 LOCATION:Estadio BBVA\, Monterrey, MX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-55@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260625T200000Z
 DTEND:20260625T215500Z
 SUMMARY:Soccer: CuraÃ§ao vs Ivory Coast - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group E\nCuraÃ§ao vs Ivory Coast\nVenue: Lincoln Financial Field\, Philadelphia, PA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group E\nCuraÃ§ao vs Ivory Coast\nScore TBD\nVenue: Lincoln Financial Field\, Philadelphia, PA\nFogo na Bomba
 LOCATION:Lincoln Financial Field\, Philadelphia, PA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-56@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260625T200000Z
 DTEND:20260625T215500Z
 SUMMARY:Soccer: Ecuador vs Germany - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group E\nEcuador vs Germany\nVenue: MetLife Stadium\, East Rutherford, NJ\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group E\nEcuador vs Germany\nScore TBD\nVenue: MetLife Stadium\, East Rutherford, NJ\nFogo na Bomba
 LOCATION:MetLife Stadium\, East Rutherford, NJ
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-57@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260625T230000Z
 DTEND:20260626T005500Z
 SUMMARY:Soccer: Japan vs Sweden - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group F\nJapan vs Sweden\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group F\nJapan vs Sweden\nScore TBD\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
 LOCATION:AT&T Stadium\, Arlington, TX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-58@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260625T230000Z
 DTEND:20260626T005500Z
 SUMMARY:Soccer: Tunisia vs Netherlands - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group F\nTunisia vs Netherlands\nVenue: Arrowhead Stadium\, Kansas City, MO\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group F\nTunisia vs Netherlands\nScore TBD\nVenue: Arrowhead Stadium\, Kansas City, MO\nFogo na Bomba
 LOCATION:Arrowhead Stadium\, Kansas City, MO
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-59@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260626T020000Z
 DTEND:20260626T035500Z
 SUMMARY:Soccer: TÃ¼rkiye vs USA - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group D\nTÃ¼rkiye vs USA\nVenue: SoFi Stadium\, Los Angeles, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group D\nTÃ¼rkiye vs USA\nScore TBD\nVenue: SoFi Stadium\, Los Angeles, CA\nFogo na Bomba
 LOCATION:SoFi Stadium\, Los Angeles, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-60@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260626T020000Z
 DTEND:20260626T035500Z
 SUMMARY:Soccer: Paraguay vs Australia - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group D\nParaguay vs Australia\nVenue: Levi's Stadium\, Santa Clara, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group D\nParaguay vs Australia\nScore TBD\nVenue: Levi's Stadium\, Santa Clara, CA\nFogo na Bomba
 LOCATION:Levi's Stadium\, Santa Clara, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-61@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260626T190000Z
 DTEND:20260626T205500Z
 SUMMARY:Soccer: Norway vs France - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group I\nNorway vs France\nVenue: Gillette Stadium\, Foxborough, MA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group I\nNorway vs France\nScore TBD\nVenue: Gillette Stadium\, Foxborough, MA\nFogo na Bomba
 LOCATION:Gillette Stadium\, Foxborough, MA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-62@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260626T190000Z
 DTEND:20260626T205500Z
 SUMMARY:Soccer: Senegal vs Iraq - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group I\nSenegal vs Iraq\nVenue: BMO Field\, Toronto, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group I\nSenegal vs Iraq\nScore TBD\nVenue: BMO Field\, Toronto, CA\nFogo na Bomba
 LOCATION:BMO Field\, Toronto, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-63@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260627T000000Z
 DTEND:20260627T015500Z
 SUMMARY:Soccer: Cape Verde vs Saudi Arabia - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group H\nCape Verde vs Saudi Arabia\nVenue: NRG Stadium\, Houston, TX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group H\nCape Verde vs Saudi Arabia\nScore TBD\nVenue: NRG Stadium\, Houston, TX\nFogo na Bomba
 LOCATION:NRG Stadium\, Houston, TX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-64@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260627T000000Z
 DTEND:20260627T015500Z
 SUMMARY:Soccer: Uruguay vs Spain - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group H\nUruguay vs Spain\nVenue: Estadio Akron\, Zapopan, MX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group H\nUruguay vs Spain\nScore TBD\nVenue: Estadio Akron\, Zapopan, MX\nFogo na Bomba
 LOCATION:Estadio Akron\, Zapopan, MX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-65@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260627T030000Z
 DTEND:20260627T045500Z
 SUMMARY:Soccer: Egypt vs Iran - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group G\nEgypt vs Iran\nVenue: Lumen Field\, Seattle, WA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group G\nEgypt vs Iran\nScore TBD\nVenue: Lumen Field\, Seattle, WA\nFogo na Bomba
 LOCATION:Lumen Field\, Seattle, WA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-66@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260627T030000Z
 DTEND:20260627T045500Z
 SUMMARY:Soccer: New Zealand vs Belgium - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group G\nNew Zealand vs Belgium\nVenue: BC Place\, Vancouver, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group G\nNew Zealand vs Belgium\nScore TBD\nVenue: BC Place\, Vancouver, CA\nFogo na Bomba
 LOCATION:BC Place\, Vancouver, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-67@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260627T210000Z
 DTEND:20260627T225500Z
 SUMMARY:Soccer: Panama vs England - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group L\nPanama vs England\nVenue: MetLife Stadium\, East Rutherford, NJ\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group L\nPanama vs England\nScore TBD\nVenue: MetLife Stadium\, East Rutherford, NJ\nFogo na Bomba
 LOCATION:MetLife Stadium\, East Rutherford, NJ
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-68@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260627T210000Z
 DTEND:20260627T225500Z
 SUMMARY:Soccer: Croatia vs Ghana - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group L\nCroatia vs Ghana\nVenue: Lincoln Financial Field\, Philadelphia, PA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group L\nCroatia vs Ghana\nScore TBD\nVenue: Lincoln Financial Field\, Philadelphia, PA\nFogo na Bomba
 LOCATION:Lincoln Financial Field\, Philadelphia, PA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-69@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260627T233000Z
 DTEND:20260628T012500Z
 SUMMARY:Soccer: Colombia vs Portugal - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group K\nColombia vs Portugal\nVenue: Hard Rock Stadium\, Miami Gardens, FL\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group K\nColombia vs Portugal\nScore TBD\nVenue: Hard Rock Stadium\, Miami Gardens, FL\nFogo na Bomba
 LOCATION:Hard Rock Stadium\, Miami Gardens, FL
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-70@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260627T233000Z
 DTEND:20260628T012500Z
 SUMMARY:Soccer: DR Congo vs Uzbekistan - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group K\nDR Congo vs Uzbekistan\nVenue: Mercedes-Benz Stadium\, Atlanta, GA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group K\nDR Congo vs Uzbekistan\nScore TBD\nVenue: Mercedes-Benz Stadium\, Atlanta, GA\nFogo na Bomba
 LOCATION:Mercedes-Benz Stadium\, Atlanta, GA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-71@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260628T020000Z
 DTEND:20260628T035500Z
 SUMMARY:Soccer: Algeria vs Austria - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group J\nAlgeria vs Austria\nVenue: Arrowhead Stadium\, Kansas City, MO\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group J\nAlgeria vs Austria\nScore TBD\nVenue: Arrowhead Stadium\, Kansas City, MO\nFogo na Bomba
 LOCATION:Arrowhead Stadium\, Kansas City, MO
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-72@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260628T020000Z
 DTEND:20260628T035500Z
 SUMMARY:Soccer: Jordan vs Argentina - WC2026
-DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group J\nJordan vs Argentina\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nGroup Stage - Group J\nJordan vs Argentina\nScore TBD\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
 LOCATION:AT&T Stadium\, Arlington, TX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-73@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260628T190000Z
 DTEND:20260628T205500Z
 SUMMARY:Soccer: Runner-up A vs Runner-up B - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 32\nRunner-up A vs Runner-up B\nVenue: SoFi Stadium\, Los Angeles, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 32\nRunner-up A vs Runner-up B\nScore TBD\nVenue: SoFi Stadium\, Los Angeles, CA\nFogo na Bomba
 LOCATION:SoFi Stadium\, Los Angeles, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-74@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260629T170000Z
 DTEND:20260629T185500Z
 SUMMARY:Soccer: Winner C vs Runner-up F - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner C vs Runner-up F\nVenue: NRG Stadium\, Houston, TX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner C vs Runner-up F\nScore TBD\nVenue: NRG Stadium\, Houston, TX\nFogo na Bomba
 LOCATION:NRG Stadium\, Houston, TX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-75@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260629T203000Z
 DTEND:20260629T222500Z
 SUMMARY:Soccer: Winner E vs Best 3rd A/B/C/D/F - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner E vs Best 3rd A/B/C/D/F\nVenue: Gillette Stadium\, Foxborough, MA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner E vs Best 3rd A/B/C/D/F\nScore TBD\nVenue: Gillette Stadium\, Foxborough, MA\nFogo na Bomba
 LOCATION:Gillette Stadium\, Foxborough, MA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-76@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260630T010000Z
 DTEND:20260630T025500Z
 SUMMARY:Soccer: Winner F vs Runner-up C - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner F vs Runner-up C\nVenue: Estadio BBVA\, Monterrey, MX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner F vs Runner-up C\nScore TBD\nVenue: Estadio BBVA\, Monterrey, MX\nFogo na Bomba
 LOCATION:Estadio BBVA\, Monterrey, MX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-77@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260630T170000Z
 DTEND:20260630T185500Z
 SUMMARY:Soccer: Runner-up E vs Runner-up I - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 32\nRunner-up E vs Runner-up I\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 32\nRunner-up E vs Runner-up I\nScore TBD\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
 LOCATION:AT&T Stadium\, Arlington, TX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-78@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260630T210000Z
 DTEND:20260630T225500Z
 SUMMARY:Soccer: Winner I vs Best 3rd C/D/F/G/H - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner I vs Best 3rd C/D/F/G/H\nVenue: MetLife Stadium\, East Rutherford, NJ\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner I vs Best 3rd C/D/F/G/H\nScore TBD\nVenue: MetLife Stadium\, East Rutherford, NJ\nFogo na Bomba
 LOCATION:MetLife Stadium\, East Rutherford, NJ
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-79@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260701T010000Z
 DTEND:20260701T025500Z
 SUMMARY:Soccer: Winner A vs Best 3rd C/E/F/H/I - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner A vs Best 3rd C/E/F/H/I\nVenue: Estadio Azteca\, Mexico City, MX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner A vs Best 3rd C/E/F/H/I\nScore TBD\nVenue: Estadio Azteca\, Mexico City, MX\nFogo na Bomba
 LOCATION:Estadio Azteca\, Mexico City, MX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-80@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260701T160000Z
 DTEND:20260701T175500Z
 SUMMARY:Soccer: Winner L vs Best 3rd E/H/I/J/K - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner L vs Best 3rd E/H/I/J/K\nVenue: Mercedes-Benz Stadium\, Atlanta, GA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner L vs Best 3rd E/H/I/J/K\nScore TBD\nVenue: Mercedes-Benz Stadium\, Atlanta, GA\nFogo na Bomba
 LOCATION:Mercedes-Benz Stadium\, Atlanta, GA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-81@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260701T200000Z
 DTEND:20260701T215500Z
 SUMMARY:Soccer: Winner G vs Best 3rd A/E/H/I/J - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner G vs Best 3rd A/E/H/I/J\nVenue: Lumen Field\, Seattle, WA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner G vs Best 3rd A/E/H/I/J\nScore TBD\nVenue: Lumen Field\, Seattle, WA\nFogo na Bomba
 LOCATION:Lumen Field\, Seattle, WA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-82@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260702T000000Z
 DTEND:20260702T015500Z
 SUMMARY:Soccer: Winner D vs Best 3rd B/E/F/I/J - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner D vs Best 3rd B/E/F/I/J\nVenue: Levi's Stadium\, Santa Clara, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner D vs Best 3rd B/E/F/I/J\nScore TBD\nVenue: Levi's Stadium\, Santa Clara, CA\nFogo na Bomba
 LOCATION:Levi's Stadium\, Santa Clara, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-83@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260702T190000Z
 DTEND:20260702T205500Z
 SUMMARY:Soccer: Winner H vs Runner-up J - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner H vs Runner-up J\nVenue: SoFi Stadium\, Los Angeles, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner H vs Runner-up J\nScore TBD\nVenue: SoFi Stadium\, Los Angeles, CA\nFogo na Bomba
 LOCATION:SoFi Stadium\, Los Angeles, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-84@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260702T230000Z
 DTEND:20260703T005500Z
 SUMMARY:Soccer: Runner-up K vs Runner-up L - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 32\nRunner-up K vs Runner-up L\nVenue: BMO Field\, Toronto, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 32\nRunner-up K vs Runner-up L\nScore TBD\nVenue: BMO Field\, Toronto, CA\nFogo na Bomba
 LOCATION:BMO Field\, Toronto, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-85@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260703T030000Z
 DTEND:20260703T045500Z
 SUMMARY:Soccer: Winner B vs Best 3rd E/F/G/I/J - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner B vs Best 3rd E/F/G/I/J\nVenue: BC Place\, Vancouver, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner B vs Best 3rd E/F/G/I/J\nScore TBD\nVenue: BC Place\, Vancouver, CA\nFogo na Bomba
 LOCATION:BC Place\, Vancouver, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-86@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260703T180000Z
 DTEND:20260703T195500Z
 SUMMARY:Soccer: Runner-up D vs Runner-up G - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 32\nRunner-up D vs Runner-up G\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 32\nRunner-up D vs Runner-up G\nScore TBD\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
 LOCATION:AT&T Stadium\, Arlington, TX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-87@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260703T220000Z
 DTEND:20260703T235500Z
 SUMMARY:Soccer: Winner J vs Runner-up H - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner J vs Runner-up H\nVenue: Hard Rock Stadium\, Miami Gardens, FL\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner J vs Runner-up H\nScore TBD\nVenue: Hard Rock Stadium\, Miami Gardens, FL\nFogo na Bomba
 LOCATION:Hard Rock Stadium\, Miami Gardens, FL
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-88@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260704T013000Z
 DTEND:20260704T032500Z
 SUMMARY:Soccer: Winner K vs Best 3rd D/E/I/J/L - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner K vs Best 3rd D/E/I/J/L\nVenue: Arrowhead Stadium\, Kansas City, MO\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 32\nWinner K vs Best 3rd D/E/I/J/L\nScore TBD\nVenue: Arrowhead Stadium\, Kansas City, MO\nFogo na Bomba
 LOCATION:Arrowhead Stadium\, Kansas City, MO
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-89@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260704T170000Z
 DTEND:20260704T185500Z
 SUMMARY:Soccer: R32 Winner 1 vs R32 Winner 2 - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 16\nR32 Winner 1 vs R32 Winner 2\nVenue: NRG Stadium\, Houston, TX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 16\nR32 Winner 1 vs R32 Winner 2\nScore TBD\nVenue: NRG Stadium\, Houston, TX\nFogo na Bomba
 LOCATION:NRG Stadium\, Houston, TX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-90@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260704T210000Z
 DTEND:20260704T225500Z
 SUMMARY:Soccer: R32 Winner 3 vs R32 Winner 4 - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 16\nR32 Winner 3 vs R32 Winner 4\nVenue: Lincoln Financial Field\, Philadelphia, PA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 16\nR32 Winner 3 vs R32 Winner 4\nScore TBD\nVenue: Lincoln Financial Field\, Philadelphia, PA\nFogo na Bomba
 LOCATION:Lincoln Financial Field\, Philadelphia, PA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-91@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260705T200000Z
 DTEND:20260705T215500Z
 SUMMARY:Soccer: R32 Winner 5 vs R32 Winner 6 - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 16\nR32 Winner 5 vs R32 Winner 6\nVenue: MetLife Stadium\, East Rutherford, NJ\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 16\nR32 Winner 5 vs R32 Winner 6\nScore TBD\nVenue: MetLife Stadium\, East Rutherford, NJ\nFogo na Bomba
 LOCATION:MetLife Stadium\, East Rutherford, NJ
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-92@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260706T000000Z
 DTEND:20260706T015500Z
 SUMMARY:Soccer: R32 Winner 7 vs R32 Winner 8 - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 16\nR32 Winner 7 vs R32 Winner 8\nVenue: Estadio Azteca\, Mexico City, MX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 16\nR32 Winner 7 vs R32 Winner 8\nScore TBD\nVenue: Estadio Azteca\, Mexico City, MX\nFogo na Bomba
 LOCATION:Estadio Azteca\, Mexico City, MX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-93@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260706T190000Z
 DTEND:20260706T205500Z
 SUMMARY:Soccer: R32 Winner 9 vs R32 Winner 10 - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 16\nR32 Winner 9 vs R32 Winner 10\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 16\nR32 Winner 9 vs R32 Winner 10\nScore TBD\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
 LOCATION:AT&T Stadium\, Arlington, TX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-94@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260707T000000Z
 DTEND:20260707T015500Z
 SUMMARY:Soccer: R32 Winner 11 vs R32 Winner 12 - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 16\nR32 Winner 11 vs R32 Winner 12\nVenue: Lumen Field\, Seattle, WA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 16\nR32 Winner 11 vs R32 Winner 12\nScore TBD\nVenue: Lumen Field\, Seattle, WA\nFogo na Bomba
 LOCATION:Lumen Field\, Seattle, WA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-95@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260707T160000Z
 DTEND:20260707T175500Z
 SUMMARY:Soccer: R32 Winner 13 vs R32 Winner 14 - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 16\nR32 Winner 13 vs R32 Winner 14\nVenue: Mercedes-Benz Stadium\, Atlanta, GA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 16\nR32 Winner 13 vs R32 Winner 14\nScore TBD\nVenue: Mercedes-Benz Stadium\, Atlanta, GA\nFogo na Bomba
 LOCATION:Mercedes-Benz Stadium\, Atlanta, GA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-96@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260707T200000Z
 DTEND:20260707T215500Z
 SUMMARY:Soccer: R32 Winner 15 vs R32 Winner 16 - WC2026
-DESCRIPTION:FIFA World Cup 2026\nRound of 16\nR32 Winner 15 vs R32 Winner 16\nVenue: BC Place\, Vancouver, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nRound of 16\nR32 Winner 15 vs R32 Winner 16\nScore TBD\nVenue: BC Place\, Vancouver, CA\nFogo na Bomba
 LOCATION:BC Place\, Vancouver, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-97@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260709T200000Z
 DTEND:20260709T215500Z
 SUMMARY:Soccer: QF1 TBD vs QF2 TBD - WC2026
-DESCRIPTION:FIFA World Cup 2026\nQuarterfinal\nQF1 TBD vs QF2 TBD\nVenue: Gillette Stadium\, Foxborough, MA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nQuarterfinal\nQF1 TBD vs QF2 TBD\nScore TBD\nVenue: Gillette Stadium\, Foxborough, MA\nFogo na Bomba
 LOCATION:Gillette Stadium\, Foxborough, MA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-98@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260710T190000Z
 DTEND:20260710T205500Z
 SUMMARY:Soccer: QF3 TBD vs QF4 TBD - WC2026
-DESCRIPTION:FIFA World Cup 2026\nQuarterfinal\nQF3 TBD vs QF4 TBD\nVenue: SoFi Stadium\, Los Angeles, CA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nQuarterfinal\nQF3 TBD vs QF4 TBD\nScore TBD\nVenue: SoFi Stadium\, Los Angeles, CA\nFogo na Bomba
 LOCATION:SoFi Stadium\, Los Angeles, CA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-99@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260711T210000Z
 DTEND:20260711T225500Z
 SUMMARY:Soccer: QF5 TBD vs QF6 TBD - WC2026
-DESCRIPTION:FIFA World Cup 2026\nQuarterfinal\nQF5 TBD vs QF6 TBD\nVenue: Hard Rock Stadium\, Miami Gardens, FL\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nQuarterfinal\nQF5 TBD vs QF6 TBD\nScore TBD\nVenue: Hard Rock Stadium\, Miami Gardens, FL\nFogo na Bomba
 LOCATION:Hard Rock Stadium\, Miami Gardens, FL
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-100@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260712T010000Z
 DTEND:20260712T025500Z
 SUMMARY:Soccer: QF7 TBD vs QF8 TBD - WC2026
-DESCRIPTION:FIFA World Cup 2026\nQuarterfinal\nQF7 TBD vs QF8 TBD\nVenue: Arrowhead Stadium\, Kansas City, MO\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nQuarterfinal\nQF7 TBD vs QF8 TBD\nScore TBD\nVenue: Arrowhead Stadium\, Kansas City, MO\nFogo na Bomba
 LOCATION:Arrowhead Stadium\, Kansas City, MO
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-101@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260714T190000Z
 DTEND:20260714T205500Z
 SUMMARY:Soccer: SF1 TBD vs SF2 TBD - WC2026
-DESCRIPTION:FIFA World Cup 2026\nSemifinal\nSF1 TBD vs SF2 TBD\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nSemifinal\nSF1 TBD vs SF2 TBD\nScore TBD\nVenue: AT&T Stadium\, Arlington, TX\nFogo na Bomba
 LOCATION:AT&T Stadium\, Arlington, TX
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-102@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260715T190000Z
 DTEND:20260715T205500Z
 SUMMARY:Soccer: SF3 TBD vs SF4 TBD - WC2026
-DESCRIPTION:FIFA World Cup 2026\nSemifinal\nSF3 TBD vs SF4 TBD\nVenue: Mercedes-Benz Stadium\, Atlanta, GA\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nSemifinal\nSF3 TBD vs SF4 TBD\nScore TBD\nVenue: Mercedes-Benz Stadium\, Atlanta, GA\nFogo na Bomba
 LOCATION:Mercedes-Benz Stadium\, Atlanta, GA
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-103@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260718T210000Z
 DTEND:20260718T225500Z
 SUMMARY:Soccer: 3P TBD vs 3P TBD - WC2026
-DESCRIPTION:FIFA World Cup 2026\n3rd Place\n3P TBD vs 3P TBD\nVenue: Hard Rock Stadium\, Miami Gardens, FL\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\n3rd Place\n3P TBD vs 3P TBD\nScore TBD\nVenue: Hard Rock Stadium\, Miami Gardens, FL\nFogo na Bomba
 LOCATION:Hard Rock Stadium\, Miami Gardens, FL
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:fnb-wc2026-104@fogonabomba
-DTSTAMP:20260522T183506Z
+DTSTAMP:20260626T151512Z
 DTSTART:20260719T190000Z
 DTEND:20260719T205500Z
 SUMMARY:Soccer: Finalist 1 vs Finalist 2 - WC2026
-DESCRIPTION:FIFA World Cup 2026\nFinal\nFinalist 1 vs Finalist 2\nVenue: MetLife Stadium\, East Rutherford, NJ\nFogo na Bomba
+DESCRIPTION:FIFA World Cup 2026\nFinal\nFinalist 1 vs Finalist 2\nScore TBD\nVenue: MetLife Stadium\, East Rutherford, NJ\nFogo na Bomba
 LOCATION:MetLife Stadium\, East Rutherford, NJ
 CATEGORIES:Sports,Soccer,World Cup
 END:VEVENT

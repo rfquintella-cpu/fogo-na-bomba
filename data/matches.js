@@ -66,7 +66,7 @@ const WC2026_MATCHES = [
   // June 24
   { id:49, phase:"Group Stage", group:"B", home:"Switzerland",     away:"Canada",       date:"2026-06-24T19:00:00Z", venue:"BC Place",                city:"Vancouver, CA" },
   { id:50, phase:"Group Stage", group:"B", home:"Bosnia & Herzegovina", away:"Qatar",   date:"2026-06-24T19:00:00Z", venue:"Lumen Field",             city:"Seattle, WA" },
-  { id:51, phase:"Group Stage", group:"C", home:"Scotland",        away:"Brazil",       date:"2026-06-24T22:00:00Z", venue:"Hard Rock Stadium",       city:"Miami Gardens, FL" },
+  { id:51, phase:"Group Stage", group:"C", home:"Scotland",        away:"Brazil",       date:"2026-06-24T22:00:00Z", venue:"Hard Rock Stadium",       city:"Miami Gardens, FL", hs:0, as:3 },
   { id:52, phase:"Group Stage", group:"C", home:"Morocco",         away:"Haiti",        date:"2026-06-24T22:00:00Z", venue:"Mercedes-Benz Stadium",  city:"Atlanta, GA" },
   { id:53, phase:"Group Stage", group:"A", home:"Czechia",         away:"Mexico",       date:"2026-06-25T01:00:00Z", venue:"Estadio Azteca",          city:"Mexico City, MX" },
   { id:54, phase:"Group Stage", group:"A", home:"South Africa",    away:"South Korea",  date:"2026-06-25T01:00:00Z", venue:"Estadio BBVA",            city:"Monterrey, MX" },
