@@ -573,7 +573,7 @@ function matchToICSEvent(m) {
   const end   = new Date(start.getTime() + 115 * 60 * 1000); // ~115 min
   const startStr = start.toISOString().replace(/[-:]/g,'').split('.')[0] + 'Z';
   const endStr   = end.toISOString().replace(/[-:]/g,'').split('.')[0] + 'Z';
-  const uid = `fnb-wc2026-match-${m.id}@fogonabomba`;
+  const uid = `fnb-wc2026-${m.id}@fogonabomba`; // must match generate-ics.ps1's UID scheme
   const homeLabel = resolveTeamLabel(m.home);
   const awayLabel = resolveTeamLabel(m.away);
   const score = matchScore(m) || getScores()[m.id];
